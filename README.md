@@ -1,8 +1,11 @@
-# TRACKR-MAP-YOUR-WORKOUTS
+# `TRACKR: MAP-YOUR-WORKOUTS`
 - I have finised building this TRACKR after learning Object Oriented Programming (OOP) in JavaScript from Jonas Schmedtmann's course.
 -  I explored "LEAFLET" - A javasvript open source library that is used to interact with maps.
 - And worked with the loacalStorage to store data in browser.
 
+<p align = center>
+    <img src="https://github.com/tanzeem131/TRACKR-MAP-YOUR-WORKOUTS/blob/main/preview.png" width="100%" height="100%">  
+</p>
   
 ## Description
 TRACKR is a workout tracker application that allows users to log and visualize their workouts based on geographical locations. It enables users to record various types of workouts (running, cycling, etc.) along with details such as distance, duration, and workout type. The app displays workouts on an interactive map, providing a visual representation of the user's fitness activities.
@@ -27,6 +30,11 @@ TRACKR is a workout tracker application that allows users to log and visualize t
 - Leaflet api for interactive maps
 - Geolocation API for location tracking
 - LocalStorage for data persistence
+
+## Flowchart
+<p align = center>
+    <img src="https://github.com/tanzeem131/TRACKR-MAP-YOUR-WORKOUTS/blob/main/Trakr-flowchart.png" width="100%" height="100%">  
+</p>
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/your-username/mapty-project.git`
