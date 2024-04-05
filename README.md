@@ -1,7 +1,7 @@
 # TRACKR-MAP-YOUR-WORKOUTS
 - In this project I explored "LEAFLET" - A javasvript open source library that is used to interact with maps.
 - And worked with the loacalStorage to store data in browser.
-- 
+  
 ## Description
 TRACKR is a workout tracker application that allows users to log and visualize their workouts based on geographical locations. It enables users to record various types of workouts (running, cycling, etc.) along with details such as distance, duration, and workout type. The app displays workouts on an interactive map, providing a visual representation of the user's fitness activities.
 
