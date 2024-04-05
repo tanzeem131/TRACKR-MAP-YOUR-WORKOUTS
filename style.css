@@ -8,6 +8,7 @@
   --color-light--2: #000000;
   --color-light--4: #ffffff;
   --color-light--3: rgb(214, 222, 224);
+  --color-red: crimson;
 }
 
 * {
@@ -30,7 +31,7 @@ body {
   overscroll-behavior-y: none;
 
   background-color: #fff;
-  padding: 2.5rem;
+  padding: 1rem;
 
   display: flex;
 }
@@ -54,6 +55,30 @@ a:visited {
   height: 12rem;
   align-self: center;
   margin-bottom: 4rem;
+}
+.clear__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.clear_search_btn {
+  padding: 0.5rem 1rem;
+  font: inherit;
+  font-size: 1.3rem;
+  background-color: var(--color-red);
+  color: var(--color-light--2);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear__search.hidden {
+  transform: translateY(-30rem);
+  height: 0;
+  padding: 0 2.25rem;
+  margin-bottom: 0;
+  opacity: 0;
 }
 
 .workouts {
@@ -88,7 +113,29 @@ a:visited {
 .workout__title {
   font-size: 1.7rem;
   font-weight: 600;
-  grid-column: 1 / -1;
+  grid-column: 1 / 4;
+}
+
+.workout__btns {
+  grid-column: 4 / -1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workout__btn {
+  padding: 0.4rem 0.5rem;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.workout__btn--delete {
+  color: #ff2626;
+}
+
+.workout__btn--edit {
+  color: #00ff40;
 }
 
 .workout__details {
@@ -218,4 +265,28 @@ a:visited {
 }
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 48%;
+  }
+
+  body {
+    flex-direction: column-reverse;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .sidebar {
+    height: 55%;
+    flex-basis: auto;
+    padding: 1rem;
+    background-color: var(--color-dark--1);
+    border: 0px solid var(--color-light--4);
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px rgba(190, 44, 44, 0.727);
+  }
 }
