@@ -38,8 +38,6 @@ TRACKR is a workout tracker application that allows users to log and visualize t
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/your-username/mapty-project.git`
-2. Navigate to the project directory: `cd mapty-project`
-3. Open the `index.html` file in your preferred web browser
 
 ## Usage
 1. Upon opening the app, click on the map to add a new workout.
